@@ -1,0 +1,12 @@
+import turtle
+turtle.title("My turtle")
+t = turtle.Turtle()
+f = turtle.Turtle()
+d = turtle.Turtle()
+t.shape("turtle")
+t.circle(70)
+f.penup()
+f.forward(100)
+f.pendown()
+f.dot(50)
+d.shapesize(10, 3, 20)
